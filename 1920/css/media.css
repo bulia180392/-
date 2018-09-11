@@ -1,0 +1,259 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1255px) {
+	.img_1{
+		padding: 110px 50px 160px 0;
+	}
+	.img_5{
+		padding: 100px 0 50px 100px;
+	}
+}
+@media only screen and (max-width : 1179px) {
+	.box_client img + img {
+		padding-left: 70px;
+	}
+	.img_1{
+		padding: 110px 20px 160px 0;
+	}
+	.img_2{
+		padding-right: 20px;
+	}
+	.img_5{
+		padding: 100px 0 20px 100px;
+	}
+}
+@media only screen and (max-width : 1123px) {
+	.box_client img + img {
+		padding-left: 33px;
+	}
+}
+@media only screen and (max-width : 1115px) {
+	.img_1{
+		padding: 0px 50px 30px 0px;
+	}
+	.img_3{
+		padding: 0px 50px;
+	}
+	.img_4{
+		padding-left: 100px;
+	}
+	.portfolio_title h3 {
+		padding-top: 46px;
+	}
+}
+@media only screen and (max-width : 1013px) {
+	.box_slider{
+		margin: 100px 0 20px 0;
+	}	
+	.items_slider h3{
+		font-size: 30px;
+		font-weight: 800;
+		letter-spacing: normal;
+	}
+}
+@media only screen and (max-width : 1011px) {
+	.box_client img + img {
+		padding-left: 13px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.box_client {
+		text-align: center;
+	}
+	.box_client img{
+		padding: 30px;
+	}
+	.box_client img{
+		padding-left: 0px;
+	}
+	.box_client img + img{
+		padding-left: 0px;
+	}
+	.client_title {
+		padding-top: 0px;
+		text-align: center;
+	}
+	.client_title h3{
+		padding-left: 0px;
+	}
+	.client_title p{
+		padding-left: 0px;
+		max-width: 320px;
+	}
+
+}
+@media only screen and (max-width : 959px) {
+	.cor_text{
+		float: none;
+	}
+}
+@media only screen and (max-width : 957px) {
+	.map iframe{
+		float: none;
+	}
+	.serv_order {
+		padding-bottom: 0px;
+	}
+	.address {
+		padding-top: 30px;
+	}
+}
+@media only screen and (max-width : 888px) {
+	.serv_order  {
+		padding-bottom: 10px;
+	}
+	.serv_order h1 {
+		font-size: 34px;
+	}
+	.contact{
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width : 885px) {
+	.wrapper{
+		overflow: hidden;
+	}
+}
+@media only screen and (max-width : 854px) {
+	.img_3 {
+		padding-bottom: 20px;
+	}
+	.img_5 {
+		padding: 30px 0 20px 10px;
+	}
+}
+@media only screen and (max-width : 789px) {
+	.items_slider h3{
+		font-size: 20px;
+		font-weight: 800;
+		letter-spacing: normal;
+	}
+	.slide_text {
+		padding-right: 10px;
+		font-size: 10px;
+	}
+	.slick-dots li button {
+		width: 20px;
+		height: 2px;
+	}
+	.map iframe {
+		padding-bottom: 22px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 681px) {
+	.img_1,
+	.img_2,
+	.img_3,
+	.img_4,
+	.img_5{
+		padding: 0 0 20px 0;
+	}
+	.portfolio_box{
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 655px){
+	.header_content{
+		padding-top: 50px;
+	}
+	.header_content p{
+		padding-bottom: 50px;
+	}
+
+}
+@media only screen and (max-width : 635px){
+	.about_title {
+		padding: 0 0 50px 0;
+	}
+	.header{
+		min-height: 767px;
+	}
+	.about{
+		min-height: 576px;
+	}
+	.serv_title {
+		padding-top: 0;
+		float: none; 
+	}
+	.corporate{
+		padding: 30px 0 0 0;
+	}
+
+	.cofe{
+		padding-top: 30px;
+	}
+	.reception{
+		padding-top: 30px;
+	}
+	.services {
+		min-height: 2177px;
+	}
+	.telephone p {
+		padding: 53px 0 20px 0;
+		font-size: 30px;
+	}
+
+}
+@media only screen and (max-width : 603px) {
+	.serv_order h1 {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width : 548px) {
+	.img_1 img{
+		width: 310px;
+		height: 136px;
+	}
+	.img_5 img{
+		width: 320px;
+		height: 160px;
+	}
+	.portfolio_box img{
+		padding-bottom: 5px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 355px) {
+	.serv_order h1 {
+		font-size: 18px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 640px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
